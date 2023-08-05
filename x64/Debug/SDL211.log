@@ -1,0 +1,28 @@
+﻿  Source1.cpp
+D:\Sdl2\SDL211\SDL211\Source1.cpp(121,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sdl2\SDL211\SDL211\Source1.cpp(121,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sdl2\SDL211\SDL211\Source1.cpp(142,24): warning C4305: '-=': truncation from 'double' to 'float'
+D:\Sdl2\SDL211\SDL211\Source1.cpp(145,22): warning C4305: '+=': truncation from 'double' to 'float'
+E:\Visual Studio\VC\Tools\MSVC\14.34.31933\include\utility(172,16): warning C4244: 'initializing': conversion from 'float' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=int
+          ]
+D:\Sdl2\SDL211\SDL211\Source1.cpp(123,39): message : see reference to function template instantiation 'std::pair<int,int>::pair<float&,float&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=float &
+          ]
+D:\Sdl2\SDL211\SDL211\Source1.cpp(123,27): message : see reference to function template instantiation 'std::pair<int,int>::pair<float&,float&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=float &
+          ]
+E:\Visual Studio\VC\Tools\MSVC\14.34.31933\include\utility(172,54): warning C4244: 'initializing': conversion from 'float' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+  SDL211.vcxproj -> D:\Sdl2\SDL211\x64\Debug\SDL211.exe
